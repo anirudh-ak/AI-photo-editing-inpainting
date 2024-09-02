@@ -35,31 +35,25 @@ git clone https://github.com/your-username/ai-photo-editing-inpainting.git
 cd ai-photo-editing-inpainting
 ```
 
-Run the notebook:
+- Run the notebook:
 
 You can open the provided Jupyter notebook in your preferred environment and follow the steps to perform photo editing.
 
-Web Application:
+- Web Application:
 
 This project can be extended to create a web application where users can upload their images, enter text prompts, and download the edited images.
 
 ## Notebook Steps
-Load Required Libraries: Import the necessary libraries, including PIL, requests, transformers, and diffusers.
-
-Load the SAM Model: Load the SAM model from Facebook/Meta and prepare it for image segmentation.
-
-Generate Images: Use Stable Diffusion to generate new backgrounds based on text prompts.
-
-Inpainting: Use the inpainting model to merge the subject with the newly generated background.
+- Load Required Libraries: Import the necessary libraries, including PIL, requests, transformers, and diffusers.
+- Load the SAM Model: Load the SAM model from Facebook/Meta and prepare it for image segmentation.
+- Generate Images: Use Stable Diffusion to generate new backgrounds based on text prompts.
+- Inpainting: Use the inpainting model to merge the subject with the newly generated background.
 
 ## Models Used
 
-SAM (Segment Anything Model): Used for segmenting the subject from the background.
-
-Stable Diffusion: A state-of-the-art model for generating images from text prompts.
-
-Inpainting Model: Merges the segmented subject with the newly generated background.
-
+- SAM (Segment Anything Model): Used for segmenting the subject from the background.
+- Stable Diffusion: A state-of-the-art model for generating images from text prompts.
+- Inpainting Model: Merges the segmented subject with the newly generated background.
 
 ## Contributing
 
